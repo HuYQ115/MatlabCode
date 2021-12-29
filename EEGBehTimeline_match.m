@@ -3,6 +3,7 @@ function [match_MI,match_M_data]=EEGBehTimeline_match(oricue_marker,M_type,M_dat
 % M_type:
 % M_data:
 % step:
+%%
 match_MI=zeros(size(oricue_marker));
 match_M_data=zeros(size(M_data));
 l=length(M_type);
